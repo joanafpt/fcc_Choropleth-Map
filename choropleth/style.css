@@ -1,0 +1,48 @@
+body{
+  background-color: white;
+}
+#tooltip {
+  position: absolute;
+  text-align: center;
+  width: 140px;
+  height: 50px; /* era 40 */
+  padding: 2px;
+  font: 10px Verdana;/* era 11 */
+  background: black;
+  border: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#title{
+  font-family: Calibri;
+  color: black;
+  font-size: 70px;
+  text-align: center;
+}
+
+#description{
+  font-family: Calibri Light;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+}
+p{
+  font-family: Calibri Light;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
