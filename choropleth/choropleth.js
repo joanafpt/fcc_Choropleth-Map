@@ -25,8 +25,11 @@ const svg = d3.select('body')
   .append('svg')
   .attr('width', w)
   .attr('height', h)
-  .style("margin-left", "350")
+  //.style("margin-left", "350")
   .style("background-color", "white")
+  .style("display", "block")
+  .style("margin-left", "auto")
+  .style("margin-right", "auto")
 
 let datasetUSEducationObject = {};
 for (var s in datasetUSEducation) {
